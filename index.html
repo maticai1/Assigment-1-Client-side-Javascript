@@ -6,11 +6,13 @@
     <title>Assignment 1 | COMP1073 Client-Side JavaScript</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script> <!-- Se agrega defer para cargar después del DOM -->
 </head>
 
 <body>
     <h1>See-N-Say Storymaker</h1>
     <p id="studentId"></p>
+
     <section id="button-container">
         <h2>Create Your Story</h2>
         <button id="noun1">Noun 1</button>
@@ -37,8 +39,6 @@
     </section>
 
     <button id="showIdButton">Show Student ID</button>
-
-    <script src="script.js"></script>
 </body>
 
 </html>
